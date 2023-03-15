@@ -7,3 +7,9 @@ For comparason sake, firt a K-means algorithm is ran on the default dataset (784
 
 Then the mnist dataset was ran through a VQ-VAE model with a discrete latent space of (3, 3, 1) embedding (9 features). Running K-means based on the embedded features resulted in around 75% accuracy.
 
+Further development is possible by trying to emplement Deep Embedded Clusstering.
+
+
+
+### Reference
+https://keras.io/examples/generative/vq_vae/#imports
