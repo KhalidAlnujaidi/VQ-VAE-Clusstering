@@ -1,0 +1,9 @@
+# VQ-VAE-Clusstering
+Some experimentation with using VQ-VAE embeddings to perform clustering tasks.
+
+This demo uses Vector-Quantized Variational Autoencoders to embedd MNIST into a dicrete latent space then proceed to use K-Means clusstering based on the embedded representations of the digits.
+
+For comparason sake, firt a K-means algorithm is ran on the default dataset (784 features). The results as expected were around 58% accuracy.
+
+Then the mnist dataset was ran through a VQ-VAE model with a discrete latent space of (3, 3, 1) embedding (9 features). Running K-means based on the embedded features resulted in around 75% accuracy.
+
