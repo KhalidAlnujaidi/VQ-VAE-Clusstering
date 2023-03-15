@@ -13,4 +13,6 @@ Further development is possible by trying to emplement Deep Embedded Clusstering
 
 ### Reference
 https://keras.io/examples/generative/vq_vae/#vectorquantized-variational-autoencoders
+
 https://arxiv.org/abs/1511.06335
+
